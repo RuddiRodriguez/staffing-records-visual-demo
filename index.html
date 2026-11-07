@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Fast staffing-record visualization demo based on supplied example charts.">
+  <title>Staffing Records Visual Demo</title>
+  <style>
+    :root { --navy:#132238; --blue:#2563eb; --pale:#eff6ff; --ink:#172033; --muted:#64748b; --line:#dce3ec; --white:#fff; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:Inter,Arial,sans-serif; color:var(--ink); background:#f4f7fb; line-height:1.55; }
+    header { color:var(--white); background:linear-gradient(120deg,#132238,#1e3a5f); padding:64px 24px 72px; }
+    .wrap { width:min(1120px,calc(100% - 32px)); margin:auto; }
+    .eyebrow { color:#93c5fd; font-weight:700; letter-spacing:.08em; text-transform:uppercase; font-size:.78rem; }
+    h1 { max-width:760px; margin:8px 0 12px; font-size:clamp(2.2rem,5vw,4rem); line-height:1.05; }
+    header p { max-width:720px; margin:0; color:#dbeafe; font-size:1.08rem; }
+    .status { display:inline-block; margin-top:22px; padding:8px 12px; border:1px solid #60a5fa; border-radius:999px; color:#dbeafe; font-size:.86rem; }
+    main { margin-top:-34px; padding-bottom:64px; }
+    .notice { background:#fff7ed; border-left:5px solid #ea7c2b; border-radius:12px; padding:18px 20px; box-shadow:0 12px 28px rgba(19,34,56,.08); }
+    .notice strong { display:block; margin-bottom:4px; }
+    .kpis { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin:24px 0; }
+    .kpi,.card { background:var(--white); border:1px solid var(--line); border-radius:16px; box-shadow:0 10px 25px rgba(19,34,56,.06); }
+    .kpi { padding:22px; }
+    .kpi b { display:block; font-size:2rem; color:var(--blue); line-height:1.1; }
+    .kpi span { color:var(--muted); font-size:.92rem; }
+    .card { padding:24px; margin:18px 0; }
+    .card h2 { margin:0 0 4px; font-size:1.35rem; }
+    .card p { margin:0 0 18px; color:var(--muted); }
+    .chart { display:block; width:100%; height:auto; border-radius:10px; }
+    .process { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-top:18px; }
+    .step { background:var(--pale); border-radius:12px; padding:16px; }
+    .step b { display:block; color:var(--blue); margin-bottom:5px; }
+    table { width:100%; border-collapse:collapse; margin-top:14px; }
+    th,td { text-align:left; padding:12px 10px; border-bottom:1px solid var(--line); }
+    th { color:var(--muted); font-size:.82rem; text-transform:uppercase; letter-spacing:.04em; }
+    footer { color:var(--muted); text-align:center; padding:10px 20px 40px; font-size:.88rem; }
+    @media (max-width:760px) { .kpis,.process { grid-template-columns:1fr; } header { padding-top:44px; } .card { padding:16px; overflow-x:auto; } .chart { min-width:690px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="eyebrow">Fast Python demonstration</div>
+      <h1>Staffing records turned into clear visuals</h1>
+      <p>Example reporting layer for staffing arrangements extracted from paper records or PDF documents.</p>
+      <span class="status">Demo results • Supplied examples only</span>
+    </div>
+  </header>
+  <main class="wrap">
+    <section class="notice" aria-label="Evidence limitation">
+      <strong>Important data note</strong>
+      Original paper records and PDFs were not supplied. Values below were transcribed from provided example charts. They demonstrate presentation quality, not document-extraction accuracy.
+    </section>
+    <section class="kpis" aria-label="Demo summary">
+      <div class="kpi"><b>80</b><span>section assignments shown in distribution chart</span></div>
+      <div class="kpi"><b>2021–2025</b><span>period shown in Michelle's timeline</span></div>
+      <div class="kpi"><b>3</b><span>clear staffing views produced</span></div>
+    </section>
+    <section class="card">
+      <h2>Section mix</h2>
+      <p>Simple category comparison with exact values displayed.</p>
+      <img class="chart" src="assets/section-distribution.svg" alt="Section assignment distribution: Main Room 2, Pavilion 50, Mezzanine 20, Other or Float 8.">
+    </section>
+    <section class="card">
+      <h2>Placement history</h2>
+      <p>Approximate yearly placement counts for Michelle, copied from the supplied visual.</p>
+      <img class="chart" src="assets/placement-timeline.svg" alt="Michelle's section placements over time from 2021 to 2025.">
+    </section>
+    <section class="card">
+      <h2>Main Room comparison</h2>
+      <p>Direct comparison using names and values exactly as shown in the supplied chart.</p>
+      <img class="chart" src="assets/main-room-comparison.svg" alt="Main Room assignments: Michelle 2 and Lower-Seniority Servers 25.">
+    </section>
+    <section class="card">
+      <h2>Full project workflow</h2>
+      <p>Proposed production process once original records are available.</p>
+      <div class="process">
+        <div class="step"><b>1. Collect</b>Organize paper scans and PDFs by date or reporting period.</div>
+        <div class="step"><b>2. Extract</b>Capture names, dates, roles, rooms, shifts, and other agreed fields.</div>
+        <div class="step"><b>3. Verify</b>Flag unclear entries and check extracted records against source pages.</div>
+        <div class="step"><b>4. Visualize</b>Deliver clean tables, summaries, charts, and reusable output files.</div>
+      </div>
+    </section>
+    <section class="card">
+      <h2>Values used in this demo</h2>
+      <p>Visible sample values only. Downloadable result tables are included in this repository.</p>
+      <table>
+        <thead><tr><th>View</th><th>Category</th><th>Value</th></tr></thead>
+        <tbody>
+          <tr><td>Distribution</td><td>Main Room</td><td>2</td></tr>
+          <tr><td>Distribution</td><td>Pavilion</td><td>50</td></tr>
+          <tr><td>Distribution</td><td>Mezzanine</td><td>20</td></tr>
+          <tr><td>Distribution</td><td>Other/Float</td><td>8</td></tr>
+          <tr><td>Main Room comparison</td><td>Michelle</td><td>2</td></tr>
+          <tr><td>Main Room comparison</td><td>Lower-Seniority Servers</td><td>25</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <footer>Prepared by Ruddi Rodriguez Garcia • Python data processing and visualization demo</footer>
+</body>
+</html>

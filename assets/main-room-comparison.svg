@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470" role="img" aria-labelledby="title desc">
+  <title id="title">Main Room Assignment Comparison</title>
+  <desc id="desc">Horizontal bars show Michelle with 2 and Lower-Seniority Servers with 25 Main Room assignments observed.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <style>
+    text { font-family: Inter, Arial, sans-serif; fill: #172033; }
+    .title { font-size: 25px; font-weight: 700; }
+    .subtitle { font-size: 14px; fill: #64748B; }
+    .axis { font-size: 13px; fill: #64748B; }
+    .label { font-size: 14px; font-weight: 600; }
+    .value { font-size: 14px; font-weight: 700; }
+  </style>
+<text x="40" y="50" class="title">Main Room Assignment Comparison</text>
+<text x="40" y="78" class="subtitle">Observed counts shown in the supplied example chart</text>
+<line x1="250.0" y1="105" x2="250.0" y2="325" stroke="#DCE3EC" stroke-width="1"/>
+<text x="250.0" y="355" class="axis" text-anchor="middle">0</text>
+<line x1="360.0" y1="105" x2="360.0" y2="325" stroke="#DCE3EC" stroke-width="1"/>
+<text x="360.0" y="355" class="axis" text-anchor="middle">5</text>
+<line x1="470.0" y1="105" x2="470.0" y2="325" stroke="#DCE3EC" stroke-width="1"/>
+<text x="470.0" y="355" class="axis" text-anchor="middle">10</text>
+<line x1="580.0" y1="105" x2="580.0" y2="325" stroke="#DCE3EC" stroke-width="1"/>
+<text x="580.0" y="355" class="axis" text-anchor="middle">15</text>
+<line x1="690.0" y1="105" x2="690.0" y2="325" stroke="#DCE3EC" stroke-width="1"/>
+<text x="690.0" y="355" class="axis" text-anchor="middle">20</text>
+<line x1="800.0" y1="105" x2="800.0" y2="325" stroke="#DCE3EC" stroke-width="1"/>
+<text x="800.0" y="355" class="axis" text-anchor="middle">25</text>
+<text x="230" y="149" class="label" text-anchor="end">Michelle</text>
+<rect x="250" y="120" width="44.0" height="48" rx="7" fill="#2563EB"/>
+<text x="306.0" y="151" class="value">2</text>
+<text x="230" y="249" class="label" text-anchor="end">Lower-Seniority Servers</text>
+<rect x="250" y="220" width="550.0" height="48" rx="7" fill="#C99A2E"/>
+<text x="812.0" y="251" class="value">25</text>
+<line x1="250" y1="325" x2="800" y2="325" stroke="#132238" stroke-width="1.5"/>
+<text x="525" y="405" class="axis" text-anchor="middle">Main Room assignments observed</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="550" viewBox="0 0 900 550" role="img" aria-labelledby="title desc">
+  <title id="title">Michelle&#x27;s Section Placements Over Time (Approximate)</title>
+  <desc id="desc">Line chart showing approximate Main Room, Pavilion, and Mezzanine placements from 2021 through 2025.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <style>
+    text { font-family: Inter, Arial, sans-serif; fill: #172033; }
+    .title { font-size: 25px; font-weight: 700; }
+    .subtitle { font-size: 14px; fill: #64748B; }
+    .axis { font-size: 13px; fill: #64748B; }
+    .label { font-size: 14px; font-weight: 600; }
+    .value { font-size: 14px; font-weight: 700; }
+  </style>
+<text x="40" y="50" class="title">Michelle's Section Placements Over Time (Approximate)</text>
+<text x="40" y="78" class="subtitle">Yearly counts visible in the supplied example chart</text>
+<line x1="85" y1="450.0" x2="830" y2="450.0" stroke="#DCE3EC" stroke-width="1"/>
+<text x="71" y="455.0" class="axis" text-anchor="end">0</text>
+<line x1="85" y1="367.5" x2="830" y2="367.5" stroke="#DCE3EC" stroke-width="1"/>
+<text x="71" y="372.5" class="axis" text-anchor="end">4</text>
+<line x1="85" y1="285.0" x2="830" y2="285.0" stroke="#DCE3EC" stroke-width="1"/>
+<text x="71" y="290.0" class="axis" text-anchor="end">8</text>
+<line x1="85" y1="202.5" x2="830" y2="202.5" stroke="#DCE3EC" stroke-width="1"/>
+<text x="71" y="207.5" class="axis" text-anchor="end">12</text>
+<line x1="85" y1="120.0" x2="830" y2="120.0" stroke="#DCE3EC" stroke-width="1"/>
+<text x="71" y="125.0" class="axis" text-anchor="end">16</text>
+<text x="85.0" y="480" class="axis" text-anchor="middle">2021</text>
+<text x="271.2" y="480" class="axis" text-anchor="middle">2022</text>
+<text x="457.5" y="480" class="axis" text-anchor="middle">2023</text>
+<text x="643.8" y="480" class="axis" text-anchor="middle">2024</text>
+<text x="830.0" y="480" class="axis" text-anchor="middle">2025</text>
+<polyline points="85.0,450.0 271.2,450.0 457.5,450.0 643.8,429.4 830.0,429.4" fill="none" stroke="#2563EB" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="85.0" cy="450.0" r="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="4"/>
+<circle cx="271.2" cy="450.0" r="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="4"/>
+<circle cx="457.5" cy="450.0" r="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="4"/>
+<circle cx="643.8" cy="429.4" r="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="4"/>
+<circle cx="830.0" cy="429.4" r="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="4"/>
+<polyline points="85.0,388.1 271.2,243.8 457.5,264.4 643.8,202.5 830.0,120.0" fill="none" stroke="#EA7C2B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="85.0" cy="388.1" r="6" fill="#FFFFFF" stroke="#EA7C2B" stroke-width="4"/>
+<circle cx="271.2" cy="243.8" r="6" fill="#FFFFFF" stroke="#EA7C2B" stroke-width="4"/>
+<circle cx="457.5" cy="264.4" r="6" fill="#FFFFFF" stroke="#EA7C2B" stroke-width="4"/>
+<circle cx="643.8" cy="202.5" r="6" fill="#FFFFFF" stroke="#EA7C2B" stroke-width="4"/>
+<circle cx="830.0" cy="120.0" r="6" fill="#FFFFFF" stroke="#EA7C2B" stroke-width="4"/>
+<polyline points="85.0,429.4 271.2,326.2 457.5,346.9 643.8,388.1 830.0,305.6" fill="none" stroke="#2E8B57" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="85.0" cy="429.4" r="6" fill="#FFFFFF" stroke="#2E8B57" stroke-width="4"/>
+<circle cx="271.2" cy="326.2" r="6" fill="#FFFFFF" stroke="#2E8B57" stroke-width="4"/>
+<circle cx="457.5" cy="346.9" r="6" fill="#FFFFFF" stroke="#2E8B57" stroke-width="4"/>
+<circle cx="643.8" cy="388.1" r="6" fill="#FFFFFF" stroke="#2E8B57" stroke-width="4"/>
+<circle cx="830.0" cy="305.6" r="6" fill="#FFFFFF" stroke="#2E8B57" stroke-width="4"/>
+<line x1="105" y1="100" x2="133" y2="100" stroke="#2563EB" stroke-width="4"/>
+<circle cx="119" cy="100" r="5" fill="#2563EB"/>
+<text x="143" y="105" class="axis">Main Room</text>
+<line x1="325" y1="100" x2="353" y2="100" stroke="#EA7C2B" stroke-width="4"/>
+<circle cx="339" cy="100" r="5" fill="#EA7C2B"/>
+<text x="363" y="105" class="axis">Pavilion</text>
+<line x1="545" y1="100" x2="573" y2="100" stroke="#2E8B57" stroke-width="4"/>
+<circle cx="559" cy="100" r="5" fill="#2E8B57"/>
+<text x="583" y="105" class="axis">Mezzanine</text>
+<line x1="85" y1="450" x2="830" y2="450" stroke="#132238" stroke-width="1.5"/>
+<line x1="85" y1="120" x2="85" y2="450" stroke="#132238" stroke-width="1.5"/>
+<text x="455" y="525" class="axis" text-anchor="middle">Year</text>
+<text x="20" y="290" class="axis" text-anchor="middle" transform="rotate(-90 20 290)">Number of shifts</text>
+</svg>
